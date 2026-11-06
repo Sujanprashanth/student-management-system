@@ -1,0 +1,9 @@
+.app-container {
+  padding: 30px;
+}
+
+.app-container h1 {
+  color: #1e3a8a;
+  font-size: 28px;
+  margin-bottom: 20px;
+}

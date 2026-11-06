@@ -1,0 +1,152 @@
+
+.update-student-container {
+    min-height: 100vh;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #f8fafc 100%);
+    font-family: Arial, sans-serif;
+}
+
+/* Update Form Card */
+.update-student-form {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    background: #ffffff;
+    border: 1px solid #dbeafe;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(30, 64, 175, 0.13);
+    box-sizing: border-box;
+}
+
+/* Heading */
+.update-student-form h2 {
+    margin: 0 0 30px;
+    color: #1e3a8a;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.update-student-form h2::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 4px;
+    margin: 12px auto 0;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
+}
+
+/* Input Fields */
+.update-student-field {
+    margin-bottom: 22px;
+}
+
+.update-student-field label {
+    display: block;
+    margin-bottom: 9px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e40af;
+}
+
+.update-student-field input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    border: 1px solid #bfdbfe;
+    border-radius: 9px;
+    font-size: 15px;
+    color: #1e293b;
+    background: #f8fbff;
+    transition: all 0.25s ease;
+}
+
+.update-student-field input:hover {
+    border-color: #60a5fa;
+}
+
+.update-student-field input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+    background: #ffffff;
+}
+
+/* Update Button */
+.update-student-button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 5px 12px rgba(37, 99, 235, 0.2);
+    transition: all 0.25s ease;
+}
+
+.update-student-button:hover {
+    background: linear-gradient(135deg, #1d4ed8, #1e40af);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3);
+    transform: translateY(-2px);
+}
+
+.update-student-button:active {
+    transform: translateY(0);
+}
+
+/* Loading Text */
+.update-student-container p {
+    color: #1e40af;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .update-student-container {
+        padding: 20px 15px;
+    }
+
+    .update-student-form {
+        padding: 28px 22px;
+        border-radius: 14px;
+    }
+
+    .update-student-form h2 {
+        font-size: 23px;
+    }
+
+    
+.update-student-button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.update-student-field input:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.update-student-error {
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    background: #fef2f2;
+    color: #dc2626;
+    text-align: center;
+    font-size: 14px;
+}
+
+}

@@ -1,0 +1,160 @@
+
+.create-student-container {
+    min-height: 100vh;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #f8fafc 100%);
+    font-family: Arial, sans-serif;
+}
+
+/* Create Form Card */
+.create-student-form {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    background: #ffffff;
+    border: 1px solid #dbeafe;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(30, 64, 175, 0.13);
+    box-sizing: border-box;
+}
+
+/* Heading */
+.create-student-form h2 {
+    margin: 0 0 30px;
+    color: #1e3a8a;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.create-student-form h2::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 4px;
+    margin: 12px auto 0;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
+}
+
+/* Input Fields */
+.create-student-field {
+    margin-bottom: 22px;
+}
+
+.create-student-field label {
+    display: block;
+    margin-bottom: 9px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e40af;
+}
+
+.create-student-field input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    border: 1px solid #bfdbfe;
+    border-radius: 9px;
+    font-size: 15px;
+    color: #1e293b;
+    background: #f8fbff;
+    transition: all 0.25s ease;
+}
+
+.create-student-field input:hover {
+    border-color: #60a5fa;
+}
+
+.create-student-field input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+    background: #ffffff;
+}
+
+/* Create Button */
+.create-student-button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 5px 12px rgba(37, 99, 235, 0.2);
+    transition: all 0.25s ease;
+}
+
+.create-student-button:hover {
+    background: linear-gradient(135deg, #1d4ed8, #1e40af);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3);
+    transform: translateY(-2px);
+}
+
+.create-student-button:active {
+    transform: translateY(0);
+}
+
+/* Success Message */
+.create-student-message {
+    margin-top: 18px;
+    padding: 12px;
+    border: 1px solid #bbf7d0;
+    border-radius: 8px;
+    background: #f0fdf4;
+    text-align: center;
+    color: #15803d;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Error Message */
+.create-student-error {
+    margin-top: 18px;
+    padding: 12px;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    background: #fef2f2;
+    text-align: center;
+    color: #dc2626;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .create-student-container {
+        padding: 20px 15px;
+    }
+
+    .create-student-form {
+        padding: 28px 22px;
+        border-radius: 14px;
+    }
+
+    .create-student-form h2 {
+        font-size: 23px;
+    }
+
+    
+.create-student-button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.create-student-field input:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+}

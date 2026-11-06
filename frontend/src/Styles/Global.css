@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+button {
+    font-family: inherit;
+    transition: background-color 0.2s ease;
+}
+
+input {
+    font-family: inherit;
+}
