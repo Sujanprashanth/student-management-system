@@ -131,6 +131,33 @@ mvn test
 
 GitHub: [Sujanprashanth](https://github.com/Sujanprashanth)
 
+## Application Screenshots
+
+### 1. Login Page
+![Login Page](screenshots/login.png)
+
+### 2. Registration Page
+![Registration Page](screenshots/Register.png)
+
+### 3. Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+![Dashboard Overview](screenshots/dashboard1.png)
+
+### 4. User Profile
+![User Profile](screenshots/profile.png)
+
+### 5. Student List
+![Student List](screenshots/studentlist.png)
+
+![Student List View](screenshots/studentlist1.png)
+
+### 6. Create Student
+![Create Student](screenshots/createstudent.png)
+
+### 7. Update Student
+![Update Student](screenshots/updatestudent.png)
+
 ---
 
 *Developed as a full-stack learning and practice project.*
